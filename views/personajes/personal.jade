@@ -1,0 +1,10 @@
+ul.acomodo.list-group
+                
+                  each item in personajes
+                    span Nombre
+                    span Apellido
+                    li.list-group-item.list-group-item-success
+                      span #{item.nombre}
+                      span #{item.apellido}                 
+                      a(href= '/personajes/#{item._id}').acomodo Ver
+                      a(href='/personajes/#{item._id}/edit') Editar

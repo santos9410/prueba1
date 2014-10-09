@@ -1,0 +1,88 @@
+
+.titulo h1{
+    text-align: center;
+    color:#88B84F;
+
+}
+.titulo{
+    background: #D13437;
+
+}
+/* columna izquierda*/
+.enlaces button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ 
+
+
+/*columna derecha*/
+
+
+ .div-busqueda button{
+    margin-left: 20px;
+ }
+ .div-busqueda form{
+    /*margin-bottom: 10px;*/
+ }
+
+.cajapersonalizada{
+    background: #DFF0D8;
+    padding:10px;
+    text-align: center;
+
+}
+.div-busqueda{
+   text-align: center;
+    height: 100px;
+    width: 50%;
+    margin: auto;
+   
+}
+
+.error1{
+    width: 60%;
+    margin:auto;
+}
+/*
+table,th,td
+      {
+      border:1px solid black;
+      border-collapse:collapse;
+      }
+
+th,td
+      {
+      padding:5px;
+      }
+
+*/
+
+.tablas{
+    width: 50%;
+    margin:auto;
+}
+
+.buscados{
+
+text-align: center;
+display:block;
+
+
+   /*margin:10px;*/
+   /*margin-bottom: 100px;*/
+   /*padding: 50px;*/
+   /*background: #E4B11D;*/
+   /*color:#FC0808;*/
+}
+
+.ver-personaje{
+    margin-right: 10px;
+}
+/*contenedor principal*/
+.container-fluid{
+    text-align: center;
+
+}
+

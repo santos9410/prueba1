@@ -1,0 +1,114 @@
+.container-fluid
+  .row
+    .titulo.panel.panel-primary 
+      h1 Usuarios
+
+    .col-md-4
+      #vinculos
+            ul.list-group.enlaces
+              li.list-group-item.list-group-item-success
+                a(href="/personajes/create") 
+                  button(type="button").btn.btn-primary.btn-lg nuevo
+                  //li.list-group-item-success
+              
+                button(type="button")#todos.btn.btn-success Mostrar todos
+
+                  //li.list-group-item-success
+                button(type="button")#buscar.btn.btn-info Buscar
+
+    //columna de la derecha
+    .col-md-8
+
+        #contenido
+          //div derecha
+
+          .buscados
+            .div-busqueda
+              form.navbar-form.navbar-left.cajapersonalizada(role='search')
+                .form-group
+                  input.form-control(type='text', placeholder='Search for name' class='inputBuscar')
+                          
+                button.btn.btn-default(type='button',id='encontrar') Buscar!
+            .error1
+            .tablas
+              .table-responsive
+                  table(style='width: 300px;').table.table-hover
+                    tr
+                      th #
+                      th Firstname
+                      th Lastname
+                      th Points
+                    tr.active
+                      td 1
+                      td Jill
+                      td Smith
+                      td 50
+                    tr.active
+                      td 2
+                      td Eve
+                      td Jackson
+                      td 94
+                    tr.active
+                      td 3
+                      td John
+                      td Doe
+                      td 80
+
+            
+                    
+                  
+                
+
+
+                   
+            
+            
+                        
+                        
+          .encontrados
+            .exito
+
+
+          
+              
+              ul.acomodo.list-group
+                span Nombre
+                span Apellido
+                li.list-group-item.list-group-item-success
+            .error2
+
+
+             
+              //- ul.acomodo.list-group
+                
+              //- each item in personajes
+              //-   span Nombre
+              //-   span Apellido
+              //-   li.list-group-item.list-group-item-success
+              //-     span #{item.nombre}
+              //-     span #{item.apellido}                 
+              //-     a(href= '/personajes/#{item._id}').acomodo Ver
+              //-     a(href='/personajes/#{item._id}/edit') Editar
+
+            
+
+                
+                                 
+                    
+          
+           
+            
+              
+
+
+
+
+
+
+
+
+
+
+
+          
+          
